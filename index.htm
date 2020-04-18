@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition
+      Chapter 7
+      Individual Case Project
+
+      Author: Chris Liddell
+      Date:   April 18, 2020
+
+      Filename: index.htm
+	  
+	  calculates the time elapsed since a date entered by a user. The page should include a form that allows users to 
+	  enter a day, month, and year. The page should then calculate and display the elapsed time in years, months, and 
+	  days. Note that your program must include code to convert day values in excess of into months, and months in 
+	  excess of into years.
+   -->
+  
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Chapter 7 - Individual Case Project</title>
+   <link rel="stylesheet" media="screen and (min-device-width: 1000px)" href="style.css" />
+   <!--[if lt IE 9]>
+      <link rel="stylesheet" href="orbits.css" />
+   <![endif]-->
+   <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Racing+Sans+One' rel='stylesheet' type='text/css'>
+   <script src="modernizr.custom.65897.js"></script>
+</head>
+
+<body>
+   <header>
+      <h2>
+         Chapter 7 - Individual Case Project
+      </h2>
+      
+   </header>   
+   
+   <article>
+      <h2>Calculate Elapsed Time</h2>
+    
+   <p>Please enter a value to represent the month (eg: Nov: 11), <br/> the day, and the year</p>
+      
+      <form>
+         <fieldset>
+            <legend>Enter a date</legend>
+            <input type="number" id="day" value = "" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Enter a month (numeric value)</legend>
+            <input type="number" id="month" value = ""/>
+         </fieldset>
+
+         <fieldset>
+            <legend>Enter a year</legend>
+            <input type="number" id="year" value = ""/>
+         </fieldset>
+
+         <fieldset id="submitBtn">
+            <input type="button" id="calcBtn" value="calculate" />
+         </fieldset>
+         
+      </form>
+
+      <section>
+         <h2>Result: </h2>  <p id = "results"></p>
+        </section> 
+         
+   </article>
+   <footer></footer>
+   <script src="script.js"></script>
+</body>
+</html>

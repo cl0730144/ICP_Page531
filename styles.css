@@ -1,0 +1,28 @@
+/*  JavaScript 6th Edition
+    Individual Case Project
+
+    Chris Liddell
+    April 18, 2020
+
+    Filename: styles.css
+*/
+
+body {
+	margin: 5%;
+}
+
+fieldset  {
+    width: 130px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+}
+
+form {
+    margin-bottom: 1em;
+    display: block;
+    margin-top: 0em;
+    border: 1px solid #ccc;
+    max-width: 200px;
+}
